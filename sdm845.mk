@@ -242,6 +242,10 @@ PRODUCT_PACKAGES += \
     libandroid_net \
     netutils-wrapper-1.0
 
+# Perfd (dummy)
+PRODUCT_PACKAGES += \
+    libqti-perfd-client
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.2-service-qti
