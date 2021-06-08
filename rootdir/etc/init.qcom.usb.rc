@@ -47,6 +47,8 @@ on charger
     enable vendor.qcom-usb-sh
     start vendor.qcom-usb-sh
     setprop sys.usb.config mass_storage
+    chown system system /sys/class/leds/white/brightness
+    write /sys/class/leds/white/brightness 255
 
 on boot
     write /sys/class/android_usb/android0/iSerial ${ro.serialno}
