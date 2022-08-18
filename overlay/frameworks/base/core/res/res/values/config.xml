@@ -400,6 +400,13 @@
          true will use SystemClock.elapsedRealtimeNanos() to set timestamp. -->
     <bool name="config_useSystemClockforRotationSensor">true</bool>
 
+    <!-- Whether the always on display mode is available. -->
+    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+
+    <!-- Control whether the always on display mode is enabled by default. This value will be used
+         during initialization when the setting is still null. -->
+    <bool name="config_dozeAlwaysOnEnabled">false</bool>
+
     <!-- The name of the package that will hold the assistant role by default. -->
     <string name="config_defaultAssistant" translatable="false">com.google.android.googlequicksearchbox</string>
 
