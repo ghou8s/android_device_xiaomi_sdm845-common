@@ -202,6 +202,11 @@ PRODUCT_PACKAGES += \
     ipacm \
     IPACM_cfg.xml
 
+# Kernel
+LOCAL_KERNEL := device/xiaomi/beryllium-kernel/Image.gz-dtb
+PRODUCT_COPY_FILES += \
+    $(LOCAL_KERNEL):kernel
+
 # Kernel Headers
 PRODUCT_VENDOR_KERNEL_HEADERS := device/xiaomi/beryllium-kernel/beryllium/kernel-headers
 
