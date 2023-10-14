@@ -1,5 +1,7 @@
 # Kernel
 
-From https://github.com/Gustyx-Power/DominatingX-Kernel
+From https://github.com/Gustyx-Power/Lethal-Kernel
 
-OLD-TOUCH-Dominating-V2.1-NSE-KSU
+4.9.337-Lethal-Baymax
+OLD-DRIVER-NSE
+KSU v0.6.9
