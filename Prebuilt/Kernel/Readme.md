@@ -1,7 +1,7 @@
 # Kernel
 
-From https://github.com/Gustyx-Power/Lethal-Kernel
+From https://github.com/Gustyx-Power/Lethal-Kernel-KSU
 
-4.9.341-Lethal-Leviathan
+4.9.342-Lethal-OptimusDrunk-KSU
 OLD-DRIVER-NSE
-KSU v0.6.9
+KSU v0.7.0
